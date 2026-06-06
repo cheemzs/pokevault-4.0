@@ -1,4 +1,4 @@
-# PokeVault 3.0
+# PokeVault 4.0
 
 Personal Pokémon card investment tracker — deployed on Vercel with Supabase.
 
