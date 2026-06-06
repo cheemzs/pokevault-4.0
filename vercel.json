@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    { "src": "^/api/(.*)", "dest": "/api/$1" },
+    { "src": "^/$",            "dest": "/public/index.html" },
+    { "src": "^/stats$",       "dest": "/public/stats.html" },
+    { "src": "^/login$",       "dest": "/public/login.html" },
+    { "src": "^/stats\\.html$","dest": "/public/stats.html" },
+    { "src": "^/login\\.html$","dest": "/public/login.html" },
+    { "src": "^/css/(.*)",     "dest": "/public/css/$1" },
+    { "src": "^/js/(.*)",      "dest": "/public/js/$1" },
+    { "src": "^/pfp\\.jpeg$",  "dest": "/public/pfp.jpeg" }
+  ]
+}
